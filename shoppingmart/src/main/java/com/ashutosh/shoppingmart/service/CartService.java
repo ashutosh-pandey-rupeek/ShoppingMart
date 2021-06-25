@@ -14,4 +14,6 @@ public interface CartService {
     void updateItemInCart(UpdateCartItemRequest updateCartItemRequest, Integer id);
 
     void deleteItemInCart(Integer id);
+
+    // TODO: CartItemsDto getItemsInCartWithAppliedOffers(Integer id);
 }

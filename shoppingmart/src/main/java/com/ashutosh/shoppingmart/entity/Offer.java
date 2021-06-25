@@ -31,7 +31,7 @@ public class Offer {
     @Enumerated(EnumType.STRING)
     private DiscountCategory discountCategory;
 
-    private double discountValue;
+    private int discountValue;
 
     private boolean enabled;
 
