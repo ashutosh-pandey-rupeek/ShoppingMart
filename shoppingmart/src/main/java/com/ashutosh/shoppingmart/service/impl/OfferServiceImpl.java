@@ -28,4 +28,9 @@ public class OfferServiceImpl implements OfferService {
         offer.setProduct(product);
         offerRepository.save(offer);
     }
+
+    @Override
+    public Offer getOfferByProductId(Integer productId) {
+        return offerRepository.findByProductId(productId);
+    }
 }
